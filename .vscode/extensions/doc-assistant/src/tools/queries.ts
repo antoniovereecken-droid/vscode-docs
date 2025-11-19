@@ -224,3 +224,7 @@ export async function getCurrentMilestoneName(): Promise<string | undefined> {
 	const currentMilestone = await response.json() as { title: string };
 	return currentMilestone.title;
 }
+
+function fetch(arg0: string, arg1: { headers: { Authorization: string; 'Content-Type': string; }; }) {
+	throw new Error('Function not implemented.');
+}
