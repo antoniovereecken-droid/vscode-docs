@@ -14,7 +14,8 @@
     "markdown.validate.ignoredLinks": [
         "/Download",
         "/insiders",
-        "/download"
+        "/download",
+        "/docs/languages/overview.md#changing-the-language-for-the-selected-file"
     ],
     "markdown.copyFiles.destination": {
         // /release-notes/v123.md -> /release-notes/images/123/img.png
